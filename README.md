@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Custom Color Gmaps Markers v3 Style Generator
 ====================
 
@@ -18,18 +17,14 @@ http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale={Marker scale}&color=
 
 #Examples
 ![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff0000) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff0000
+
 ![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=00ff00) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=00ff00
+
 ![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=0000ff) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=0000ff
+
 ![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ffff00) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ffff00
+
 ![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff00ff) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff00ff
+
 ![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=00ffff) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff00ff
- 
 
-
-
-=======
-gmapsmarkergenerator
-====================
-
-Custom Color Gmaps Markers v3 Style Generator
->>>>>>> 413004a3878235bc22b70027c252e237ba5b57f7
