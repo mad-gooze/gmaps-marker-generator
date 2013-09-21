@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Custom Color Gmaps Markers v3 Style Generator
 ====================
 
@@ -26,3 +27,9 @@ http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale={Marker scale}&color=
 
 
 
+=======
+gmapsmarkergenerator
+====================
+
+Custom Color Gmaps Markers v3 Style Generator
+>>>>>>> 413004a3878235bc22b70027c252e237ba5b57f7
