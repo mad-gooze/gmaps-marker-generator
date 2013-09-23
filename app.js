@@ -23,6 +23,7 @@ app.get('/', function(req, res){
 });
 
 var colorRegexp = /^(?:[0-9a-f]{3}){1,2}$/i; //regexp for matching hex color code
+var scaleRegexp = /^[1-4]/; //regexp for matching scale
 var scales = ["22x40", "44x80", "66x120", "88x160"]; //supported marker scales
 
 app.get('/getmarker',function(req, res){
@@ -36,10 +37,11 @@ app.get('/getmarker',function(req, res){
     }
 
     //check the specified scale or set the default one
-    var scale = new Number(req.query["scale"]);
-    if (!scale){
+    var scale = req.query["scale"];
+    if (!scale || !scaleRegexp.test(scale)){
         scale = 1;
     }
+    scale = new Number(scale);
     scale--;
     if (scale < 0) scale = 0;
     if (scale > scales.length - 1) scale = scales.length - 1;
