@@ -1,6 +1,8 @@
 const express = require('express');
 const compression = require('compression');
 const generator = require('./lib/generator').init({
+    cacheDir: process.env.OPENSHIFT_DATA_DIR || 'cache',
+    tmpDir: process.env.OPENSHIFT_TMP_DIR || '/tmp',
     logEnabled: true
 });
 
