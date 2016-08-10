@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
     res.send(appName);
 });
 
+app.get('/health', (req, res) => {
+    res.send('ok');
+});
+
 app.get('/get-marker', (req, res) => {
     generator.generate({
         color: req.query.color,
