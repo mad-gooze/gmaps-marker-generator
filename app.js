@@ -1,8 +1,10 @@
+'use strict';
+
 const express = require('express');
 const compression = require('compression');
 const generator = require('./lib/generator').init({
-    cacheDir: process.env.OPENSHIFT_DATA_DIR || __dirname + '/cache',
-    tmpDir: process.env.OPENSHIFT_TMP_DIR || '/tmp',
+    cacheDir: process.env.OPENSHIFT_DATA_DIR,
+    tmpDir: process.env.OPENSHIFT_TMP_DIR,
     logEnabled: true
 });
 
@@ -40,6 +42,6 @@ app.get('/get-marker', (req, res) => {
 
 
 app.listen(PORT, IP, () => {
-    console.log(`${appName} server started.`);
+    console.log(`${new Date()}: ${appName} server started.`);
 });
 
