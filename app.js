@@ -1,7 +1,7 @@
 const express = require('express');
 const compression = require('compression');
 const generator = require('./lib/generator').init({
-    cacheDir: process.env.OPENSHIFT_DATA_DIR || 'cache',
+    cacheDir: process.env.OPENSHIFT_DATA_DIR || __dirname + '/cache',
     tmpDir: process.env.OPENSHIFT_TMP_DIR || '/tmp',
     logEnabled: true
 });
@@ -33,9 +33,7 @@ app.get('/get-marker', (req, res) => {
             });
         } else {
             res.setHeader('Cache-Control', 'public, max-age=31557600'); // one year
-            res.sendFile(filename, {
-                root: __dirname
-            });
+            res.sendFile(filename);
         }
     });
 });
