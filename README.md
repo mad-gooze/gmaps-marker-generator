@@ -1,8 +1,8 @@
-# Custom Color GMaps v3 Marker Icons Generator [![marker](https://gmaps-marker-generator.cf/get-marker?scale=22x40)](https://gmaps-marker-generator.cf)
+# Custom Color GMaps v3 Marker Icons Generator [![marker](https://www.gmaps-marker-generator.cf/get-marker?scale=22x40)](https://www.gmaps-marker-generator.cf)
 [![Build Status](https://travis-ci.org/MAD-GooZe/gmaps-marker-generator.svg?branch=master)](https://travis-ci.org/MAD-GooZe/gmaps-marker-generator)
 [![bitHound Overall Score](https://www.bithound.io/github/MAD-GooZe/gmaps-marker-generator/badges/score.svg)](https://www.bithound.io/github/MAD-GooZe/gmaps-marker-generator)
 
-[gmaps-marker-generator.cf/get-marker](https://gmaps-marker-generator.cf/get-marker) is a simple service 
+[gmaps-marker-generator.cf/get-marker](https://www.gmaps-marker-generator.cf/get-marker) is a simple service 
 which allows you to generate custom color marker icons 
 which copy the design of standart Google Maps v3 marker.
 
@@ -10,7 +10,7 @@ which copy the design of standart Google Maps v3 marker.
 
 Grab your custom marker icon on this URL:
 
-https://gmaps-marker-generator.cf/get-marker
+https://www.gmaps-marker-generator.cf/get-marker
 
 
 ### Parameters: 
@@ -33,7 +33,7 @@ https://gmaps-marker-generator.cf/get-marker
 
 Marker icon | URL
 :---:|---
-![marker](https://gmaps-marker-generator.cf/get-marker?color=ff0000&scale=44x80)|https://gmaps-marker-generator.cf/get-marker?color=0f0&scale=44x80
-![marker](https://gmaps-marker-generator.cf/get-marker?color=ffa500&scale=44x80)|https://gmaps-marker-generator.cf/get-marker?color=ffa500&scale=44x80
-![marker](https://gmaps-marker-generator.cf/get-marker?color=blue&scale=44x80)|https://gmaps-marker-generator.cf/get-marker?color=blue
-![marker](https://gmaps-marker-generator.cf/get-marker?color=yellow&scale=44x80)|https://gmaps-marker-generator.cf/get-marker?color=yellow&scale=44x80
+![marker](https://www.gmaps-marker-generator.cf/get-marker?color=ff0000&scale=44x80)|https://www.gmaps-marker-generator.cf/get-marker?color=0f0&scale=44x80
+![marker](https://www.gmaps-marker-generator.cf/get-marker?color=ffa500&scale=44x80)|https://www.gmaps-marker-generator.cf/get-marker?color=ffa500&scale=44x80
+![marker](https://www.gmaps-marker-generator.cf/get-marker?color=blue&scale=44x80)|https://www.gmaps-marker-generator.cf/get-marker?color=blue
+![marker](https://www.gmaps-marker-generator.cf/get-marker?color=yellow&scale=44x80)|https://www.gmaps-marker-generator.cf/get-marker?color=yellow&scale=44x80
