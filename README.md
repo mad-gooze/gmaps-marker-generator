@@ -1,8 +1,10 @@
-# Custom Color GMaps v3 Marker Icons Generator ![](https://gmaps-marker-generator.cf/get-marker?scale=22x40)
+# Custom Color GMaps v3 Marker Icons Generator [![marker](https://gmaps-marker-generator.cf/get-marker?scale=22x40)](https://gmaps-marker-generator.cf)
 [![Build Status](https://travis-ci.org/MAD-GooZe/gmaps-marker-generator.svg?branch=master)](https://travis-ci.org/MAD-GooZe/gmaps-marker-generator)
 [![bitHound Overall Score](https://www.bithound.io/github/MAD-GooZe/gmaps-marker-generator/badges/score.svg)](https://www.bithound.io/github/MAD-GooZe/gmaps-marker-generator)
 
-Custom Color GMaps v3 Markers Generator is a simple service which allows you to generate custom color markers which copy the design of standart Google Maps v3 marker.
+[gmaps-marker-generator.cf/get-marker](https://gmaps-marker-generator.cf/get-marker) is a simple service 
+which allows you to generate custom color marker icons 
+which copy the design of standart Google Maps v3 marker.
 
 ## Usage
 
