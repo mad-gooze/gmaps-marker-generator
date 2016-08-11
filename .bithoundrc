@@ -8,7 +8,8 @@
     "mute":[
       "parse-color",
       "express",
-      "eslint"
+      "eslint",
+      "mocha"
     ]
   }
 }

@@ -8,11 +8,13 @@
     "parse-color": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.2.2"
+    "eslint": "^3.2.2",
+    "mocha": "^3.0.2"
   },
   "scripts": {
-    "test": "npm run lint",
+    "test": "npm run lint && npm run mocha",
     "lint": "eslint .",
+    "mocha": "node_modules/.bin/mocha --reporter spec",
     "start": "node start.js"
   },
   "repository": {
