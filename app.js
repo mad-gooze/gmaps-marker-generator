@@ -1,7 +1,6 @@
 'use strict';
 
 const express = require('express');
-const compression = require('compression');
 const generator = require('./lib/generator').init({
     cacheDir: process.env.OPENSHIFT_DATA_DIR,
     tmpDir: process.env.OPENSHIFT_TMP_DIR,
@@ -13,13 +12,12 @@ const appName = 'Custom Color GMaps Markers v3 Style Generator';
 const PORT = process.env.NODE_PORT || 3000;
 const IP = process.env.NODE_IP || 'localhost';
 
-app.use(compression());
-
 app.get('/', (req, res) => {
-    res.send(appName);
+    res.redirect('https://github.com/MAD-GooZe/gmaps-marker-generator');
 });
 
-app.get('/health', (req, res) => {
+// for openshift and UptimeRobot
+app.get(['/health', '/status'], (req, res) => {
     res.send('ok');
 });
 

@@ -6,7 +6,6 @@
   },
   "dependencies":{
     "mute":[
-      "compression",
       "parse-color",
       "express",
       "eslint"

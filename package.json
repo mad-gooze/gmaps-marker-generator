@@ -4,7 +4,6 @@
   "description": "A simple tool which allows you to generate custom color markers which copy the design of standart google maps v3 marker.",
   "main": "app.js",
   "dependencies": {
-    "compression": "^1.6.2",
     "express": "^4.14.0",
     "parse-color": "^1.0.0"
   },
