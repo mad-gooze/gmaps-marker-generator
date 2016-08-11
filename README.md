@@ -1,30 +1,37 @@
-Custom Color Gmaps Markers v3 Style Generator
-====================
+# Custom Color GMaps v3 Marker Icons Generator ![](https://gmaps-marker-generator.cf/get-marker?scale=22x40)
+[![Build Status](https://travis-ci.org/MAD-GooZe/gmaps-marker-generator.svg?branch=master)](https://travis-ci.org/MAD-GooZe/gmaps-marker-generator)
+[![bitHound Overall Score](https://www.bithound.io/github/MAD-GooZe/gmaps-marker-generator/badges/score.svg)](https://www.bithound.io/github/MAD-GooZe/gmaps-marker-generator)
 
-Custom Color Gmaps Markers v3 Style Generator is a simple tool which allows you to generate custom color markers which copy the design of standart google maps v3 marker.
+Custom Color GMaps v3 Markers Generator is a simple service which allows you to generate custom color markers which copy the design of standart Google Maps v3 marker.
 
-Usage
----------------------
-http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale={Marker scale}&color={HEX color code}
+## Usage
 
-# Supported Scales
-| Left align | Marker color |
-|:-----------|-------------:|
-| 1          |  22px × 40px |
-| 2          |  44px × 80px |
-| 3          | 66px × 120px |
-| 4          | 88px × 160px |
+Grab your custom marker icon on this URL:
 
-#Examples
-![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff0000) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff0000
+https://gmaps-marker-generator.cf/get-marker
 
-![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=00ff00) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=00ff00
 
-![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=0000ff) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=0000ff
+### Parameters: 
+* #### scale
+    
+    Supported values are:
+    `22x40`, `44x80`, `66x120`, `88x160`
+    
+    Default: `88x160`
+    
+* #### color
+    
+    Supported value should be a color in any form processed by 
+    [parse-color](https://www.npmjs.com/package/parse-color),
+    for example hex (like `45f412`, `fff`), keyword (like `red`, `blue`) etc.
+    
+    **Note!** You can supply hex color values with `#` (like `#ff0000`), but `#` should be URL-encoded to `%23`
 
-![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ffff00) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ffff00
+### Examples
 
-![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff00ff) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff00ff
-
-![marker](http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=00ffff) http://gmapsmarkergenerator.eu01.aws.af.cm/getmarker?scale=1&color=ff00ff
-
+Marker icon | URL
+:---:|---
+![marker](https://gmaps-marker-generator.cf/get-marker?color=ff0000&scale=44x80)|https://gmaps-marker-generator.cf/get-marker?color=0f0&scale=44x80
+![marker](https://gmaps-marker-generator.cf/get-marker?color=ffa500&scale=44x80)|https://gmaps-marker-generator.cf/get-marker?color=ffa500&scale=44x80
+![marker](https://gmaps-marker-generator.cf/get-marker?color=blue&scale=44x80)|https://gmaps-marker-generator.cf/get-marker?color=blue
+![marker](https://gmaps-marker-generator.cf/get-marker?color=yellow&scale=44x80)|https://gmaps-marker-generator.cf/get-marker?color=yellow&scale=44x80
