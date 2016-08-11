@@ -5,6 +5,7 @@ const fs = require('fs');
 describe('generator tests', () => {
     it('should init without error', () => {
         generator.init({
+            cacheDir: '/tmp',
             logEnabled: true
         });
     });
